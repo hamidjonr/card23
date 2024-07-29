@@ -1,0 +1,96 @@
+h1 {
+    align-items: center;
+    text-align: center;
+}
+
+label span{
+    font-size: 20px;
+    margin: 640px;
+}
+.input{
+    margin-left: 260px;
+}
+.input input{
+    width: 300px;
+    height: 30px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid grey;
+}
+#inp2 {
+    position: absolute;
+    margin-left: 260px;
+    margin-top: 20px;
+    width: 300px;
+    height: 30px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid grey;
+}
+
+#errorhandler{
+    color: red;
+    font-size: 22px;
+    position: absolute;
+    top: 185px;
+    left: 618px;
+}
+.edit_modal{
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+}
+.modal__close{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 8px;
+}
+.jadval{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 800px;
+    margin-left: 260px;
+    position: relative;
+    top: 100px;
+}
+.jadval td,
+.jadval th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    width: 72px;
+}
+
+.fa-trash-alt:before, .fa-trash-can:before {
+    color: rgba(0, 0, 255, 0.866);
+    font-size: 25px;
+    position: absolute;
+    margin-top: -16px;
+    text-align: center;
+    width: 140px;
+}
+
+.fa-file-edit:before, .fa-file-pen:before {
+    color: rgb(254, 214, 140);
+    font-size: 25px;
+    position: absolute;
+    margin-top: -16px;
+    width: 140px;
+    text-align: center;
+}
+ 
+form button {
+    background: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 17px;
+    width: 150px;
+    height: 35px;
+    position: absolute;
+    margin-left: 586px;
+    margin-top: 10px;
+}
